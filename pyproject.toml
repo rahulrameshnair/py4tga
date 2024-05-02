@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "py4tga"
 version = "0.1.0"
 description = "Python for thermogravimetry analysis"
-readme = "README.rst"
+readme = "README.md"
 authors = [
   {name = "Rahul Ramesh Nair", email = "rahulascents@gmail.com"}
 ]
