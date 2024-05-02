@@ -20,7 +20,7 @@ Python for thermogravimetry analysis
 
 
 * Free software: MIT license
-* Documentation: https://py4tga.readthedocs.io.
+* Documentation: https://py4tga.readthedocs.io. (not added yet)
 
 
 Features
