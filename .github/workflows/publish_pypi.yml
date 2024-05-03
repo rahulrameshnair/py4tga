@@ -17,7 +17,7 @@ on:
       to_pypi:
         description: "Publish to PyPI."
         type: boolean
-        default: false
+        default: true
 
 
 jobs:
