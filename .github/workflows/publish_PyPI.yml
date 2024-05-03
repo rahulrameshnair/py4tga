@@ -1,0 +1,29 @@
+name: Publish to PyPI
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x' # Specify the Python version you are using
+
+      - name: Install poetry
+        run: |
+          pip install poetry
+
+      - name: Build and publish to PyPI
+        env:
+          PYPI_API_TOKEN: ${{ secrets.PYPI_API }}
+        run: |
+          poetry config pypi-token.pypi $PYPI_API_TOKEN
+          poetry build
+          poetry publish
