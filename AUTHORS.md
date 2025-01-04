@@ -2,7 +2,7 @@
 
 ## Development Lead
 
--   Rahul Ramesh Nair \<<rahulascents@gmail.com>\>
+-   Rahul Ramesh Nair \<<rahulgenesis@hotmail.com>\>
 
 ## Contributors
 
